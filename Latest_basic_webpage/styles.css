@@ -1,0 +1,134 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+/* UNIVERSAL */
+
+html,
+body {
+  background-color: rgb(79, 79, 138);
+}
+/*.myimage{
+  border: 1px solid;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em;
+  align-content: centre;
+  margin: auto;
+  display: block;
+}*/
+
+.img {
+  flex: auto;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+  align-content: center;
+}
+
+@media(min-width: 960px){
+  .img {
+    display: flex;
+    align-content: left;
+    object-fit: cover;
+  }
+}
+@media(min-width: 760px)
+.container{
+    display:flex;
+  }
+/*
+.Gwamasenga{
+  border: 2px;
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+*/
+@media(min-width: 760px){
+  .container.flex {
+    display: flex;
+  }
+}
+table, th, td {
+  border: 1px solid black;
+  width: 25em;
+}
+.paragraph{
+  padding: 5em;
+}
+
+@media(min-width: 760px) {
+  .subjects{
+    display: flex;
+  }
+}
+.sub1 {
+  flex: 1;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+  text-align: left;
+}
+.sub2 {
+  flex: 1;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+  text-align: left;
+}
+.sub3 {
+  flex: 1;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+  text-align: left;
+}
+.sub{
+  text-align: center;
+}
+.navbar {
+  background-color: rgb(79, 79, 138);
+  color: rgb(206, 206, 216);
+  height: auto;
+  
+}
+.navbar ul {
+display: flex;
+}
+.navbar a {
+  color: white;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px white solid;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+.container {
+  max-width: 760 px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+  align-content: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+}
